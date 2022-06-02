@@ -22,14 +22,28 @@ O JavaScript te permite dar dinamismos Ã s pÃ¡ginas. Ã‰ ele quem garante q
 
 #7 Linguagem mais usada do mundo. 
 
-#8 Javascript e de facil aprendizagem
+#8 javascrit e de facil aprendizagem
 
 #9 Linguagem do futuro
 
-#10(6R) Arrumar emprego
+#6R Para poder ter mais conhecimento sobre programação e com isso, mais facilidade em arrumar um emprego.
+#6R Oportunidades de emprego
+#6R Arrumar emprego
+#6R Usada em muitas empresas
 
-#11(7R) JavaScript tá na ponta da língua dos programadores
+#7R Como é a linguagem mais utilizada no mundo ela possui bastante versatilidade, podendo ser usada para várias coisas distintas.
+#7R Comunicação com o mundo todo, através de uma linguagem "universal"
+#7R JavaScript tá na ponta da língua dos programadores
+#7R E adotada nas melhores em todas escolas como base
 
-#12(8R) conteúdo de fácil absorção
+#8R O javascript é uma linguagem que possui um nivel de aprendizagem mais tranquilo.
+#8R material de facil acesso
+#8R conteúdo de fácil absorção
+#8R Até um leigo consegue usar
 
-#13(9R) Ainda será usada em muita coisa
+#9R Continuará sendo utilizada por um bom tempo.
+#9R comunicação globalizada
+#9R Ainda será usada em muita coisa
+#9R E uma linguagem a frente do seu tempo
+
+
