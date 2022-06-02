@@ -1,0 +1,11 @@
+   42  droidcam
+   43  ls
+   44  cd Documentos/trybe-exercicios/Fundamentos/Unix\ \&\ Bash\ -\ Parte\ 1/Dia\ 2
+   45  ls
+   46  history
+    1  a
+    2  .zshrc
+    3  sadasd
+    4  chsh -s $(which zsh)
+    5  zsh --version
+    1  a
