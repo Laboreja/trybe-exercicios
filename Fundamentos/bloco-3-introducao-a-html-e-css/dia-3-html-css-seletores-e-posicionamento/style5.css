@@ -1,0 +1,12 @@
+ol {
+    background-color: yellow;
+}
+
+ol.frasesmemo li:nth-child(even) {
+    color: green;
+}
+
+ol.frasesmemo li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
