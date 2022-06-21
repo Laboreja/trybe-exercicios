@@ -9,3 +9,5 @@ console.log(birthYear);
 var birthYear = 2030;
 
 console.log(birthYear);
+
+// const birthCity = "Pirajuí";
