@@ -39,16 +39,27 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //console.log(maior);
 
 // Exercício 6
-let impar = [];
+//let impar = [];
+//
+//for (let i = 0; i < numbers.length; i++) {
+//    if (numbers[i] % 2 !== 0) {
+//        impar.push(numbers[i]);
+//    }
+//}
+//
+//console.log(impar);
+//
+//if (impar.length === 0) {
+//    console.log("Nenhum valor ímpar encontrado")
+//}
+
+// Exercício 7
+let menor = numbers[0];
 
 for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 !== 0) {
-        impar.push(numbers[i]);
-    }
+  if (menor > numbers[i]) {
+    menor = numbers[i];
+  }
 }
 
-console.log(impar);
-
-if (impar.length === 0) {
-    console.log("Nenhum valor ímpar encontrado")
-}
+console.log(menor);
