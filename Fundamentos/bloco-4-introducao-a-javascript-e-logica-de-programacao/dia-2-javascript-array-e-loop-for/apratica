@@ -18,3 +18,11 @@ console.log(soma);
 let mediAritmetica = soma / numbers.length;
 
 console.log(mediAritmetica);
+
+// Exercício 4
+if (mediAritmetica > 20) {
+    console.log("Valor maior que 20");
+}
+else {
+    console.log("Valor menor ou igual a 20");
+}
