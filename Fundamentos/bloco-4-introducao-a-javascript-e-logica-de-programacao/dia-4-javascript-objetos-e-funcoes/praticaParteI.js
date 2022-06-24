@@ -10,3 +10,8 @@ console.log("Bem-vinda, " + info.personagem);
 
 // Exercício 2
 console.log(info);
+
+// Exercício 3
+for (i in info) {
+    console.log(i);
+}
