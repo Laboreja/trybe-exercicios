@@ -3,15 +3,20 @@ let info = {
   personagem: "Margarida",
   origem: "Pato Donald",
   nota: "Namorada do personagem principal nos quadrinhos do Pato Donald",
-  recorrente: "Sim"
+  recorrente: "Sim",
 };
 
-console.log("Bem-vinda, " + info.personagem);
+// console.log("Bem-vinda, " + info.personagem);
 
 // Exercício 2
-console.log(info);
+// console.log(info);
 
 // Exercício 3
+// for (i in info) {
+//     console.log(i);
+// }
+
+// Exercício 4
 for (i in info) {
-    console.log(i);
+  console.log(info[i]);
 }
