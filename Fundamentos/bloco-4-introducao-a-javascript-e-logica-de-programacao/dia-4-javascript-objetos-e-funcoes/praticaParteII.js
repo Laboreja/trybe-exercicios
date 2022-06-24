@@ -12,8 +12,16 @@
 // reverta("prato");
 
 // Exercício 2
-function maior(arr) {
-  return Math.max.apply(null, arr);
-}
+// function maior(arr) {
+//   return Math.max.apply(null, arr);
+// }
 
-console.log(maior([1, 2, 6, 7, 4]));
+// console.log(maior([1, 2, 6, 7, 4]));
+
+// Exercício 3
+function maior(arr) {
+    return Math.min.apply(null, arr);
+  }
+  
+  console.log(maior([2, 6, 7, 4]));
+  
