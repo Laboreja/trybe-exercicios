@@ -1,6 +1,6 @@
 // Exercício 1
 // function reverta(palavra) {
-//   novaPalavra = palavra.split("").reverse().join("");
+//   let novaPalavra = palavra.split("").reverse().join("");
 //   if (palavra === novaPalavra) {
 //     console.log("true");
 //   } else {
@@ -19,9 +19,12 @@
 // console.log(maior([1, 2, 6, 7, 4]));
 
 // Exercício 3
-function maior(arr) {
-    return Math.min.apply(null, arr);
-  }
+// function menor(arr) {
+//     return Math.min.apply(null, arr);
+//   }
   
-  console.log(maior([2, 6, 7, 4]));
-  
+//   console.log(menor([2, 6, 7, 4]));
+
+// Exercício 4 - Falha
+
+
