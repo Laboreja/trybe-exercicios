@@ -27,4 +27,20 @@
 
 // Exercício 4 - Falha
 
+// Exercício 5 
+let valores = [2, 3, 2, 5, 8, 2, 3];
+function duplicatas(array) {
+    const dup = Object.create(null);
+    
+    for (const str of array) {
+      if (dup[str]) {
+        dup[str] += 1;
+      } else {
+        dup[str] = 1;
+      }
+    }
+    
+    return dup;
+  }
 
+console.log(duplicatas(valores));
