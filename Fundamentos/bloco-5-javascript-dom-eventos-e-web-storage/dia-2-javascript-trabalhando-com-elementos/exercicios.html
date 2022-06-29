@@ -60,20 +60,25 @@
 <body>
     <script>
         // Exercício 1
-        let h1 = document.createElement('h1');
-        document.body.appendChild(h1);
-        h1.innerText = 'Exercício 5.2 - JavaScript DOM';
+        let hum = document.createElement('h1');
+        document.body.appendChild(hum);
+        hum.innerText = 'Exercício 5.2 - JavaScript DOM';
         // Exercício 2
-        let main = document.createElement('main');
-        document.body.appendChild(main);
-        main.className = 'main-content';
+        let principal = document.createElement('main');
+        document.body.appendChild(principal);
+        principal.className = 'main-content';
         // Exercício 3
-        let section = document.createElement('section');
-        main.appendChild(section);
+        let secao1 = document.createElement('section');
+        principal.appendChild(secao1);
+        secao1.className = 'center-content';
         // Exercício 4
-        let p = document.createElement('p');
-        section.appendChild(p);
-        p.innerText = "É MUITO DIVERTIDO VER ISSO TOMANDO FORMA";
+        let pe1 = document.createElement('p');
+        secao1.appendChild(pe1);
+        pe1.innerText = "É MUITO DIVERTIDO VER ISSO TOMANDO FORMA";
+        // Exercício 5
+        let secao2 = document.createElement('section');
+        principal.appendChild(secao2);
+        secao2.className = 'left-content';
     </script>
 </body>
 
