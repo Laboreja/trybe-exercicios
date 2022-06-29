@@ -84,10 +84,16 @@
         principal.appendChild(secao3);
         secao3.className = 'right-content';
         // Exercício 7
-        let foto = document.createElement('img')
-        secao3.appendChild(foto);
+        let foto = document.createElement('img');
+        secao2.appendChild(foto);
         foto.src = 'https://picsum.photos/200';
         foto.className = 'small-image';
+        // Exercício 8
+        let listinha = document.createElement('ul');
+        secao3.appendChild(listinha);
+        listinha.innerHTML =
+            '<li>Um</li><li>Dois</li><li>Três</li><li>Quatro</li><li>Cinco</li><li>Seis</li><li>Sete</li><li>Oito</li><li>Nove</li><li>Dez</li>';
+            
     </script>
 </body>
 
