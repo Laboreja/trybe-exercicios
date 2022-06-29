@@ -22,6 +22,7 @@
         </section>
     </main>
     <script>
+        // Parte I - Buscando elementos
         // Exercício 1 & Exercício 2
         document.getElementById("elementoOndeVoceEsta").parentNode.style.backgroundColor = "pink";
         // Exercício 3
@@ -36,6 +37,10 @@
         console.log(document.getElementById("elementoOndeVoceEsta").nextElementSibling);
         // Exercício 8
         console.log(document.getElementById("pai").lastElementChild.previousElementSibling);
+        // Parte II - Criando elementos
+        // Exercício 1
+        let quintoFilho = document.createElement("section");
+        document.getElementById("pai").appendChild(quintoFilho);
     </script>
 </body>
 
