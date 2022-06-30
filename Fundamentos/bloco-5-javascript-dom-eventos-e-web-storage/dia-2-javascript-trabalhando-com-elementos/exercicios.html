@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+        section {
+            border-color: black;
+            border-style: solid;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .main-content {
+            background-color: yellow;
+        }
+
+        .main-content .center-content {
+            background-color: red;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-content .center-content p {
+            font-style: italic;
+        }
+
+        .main-content .left-content {
+            background-color: green;
+            width: 60%;
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .main-content .left-content .small-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 100%;
+        }
+
+        .main-content .right-content {
+            background-color: blue;
+            width: 60%;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .main-content .description {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // Parte 1
+        // Exercício 1
+        let hum = document.createElement('h1');
+        document.body.appendChild(hum);
+        hum.innerText = 'Exercício 5.2 - JavaScript DOM';
+        // Exercício 2
+        let principal = document.createElement('main');
+        document.body.appendChild(principal);
+        principal.className = 'main-content';
+        // Exercício 3
+        let secao1 = document.createElement('section');
+        principal.appendChild(secao1);
+        secao1.className = 'center-content';
+        // Exercício 4
+        let pe1 = document.createElement('p');
+        secao1.appendChild(pe1);
+        pe1.innerText = "É MUITO DIVERTIDO VER ISSO TOMANDO FORMA";
+        // Exercício 5
+        let secao2 = document.createElement('section');
+        principal.appendChild(secao2);
+        secao2.className = 'left-content';
+        // Exercício 6
+        let secao3 = document.createElement('section');
+        principal.appendChild(secao3);
+        secao3.className = 'right-content';
+        // Exercício 7
+        let foto = document.createElement('img');
+        secao2.appendChild(foto);
+        foto.src = 'https://picsum.photos/200';
+        foto.className = 'small-image';
+        // Exercício 8
+        let listinha = document.createElement('ul');
+        secao3.appendChild(listinha);
+        listinha.innerHTML =
+            '<li>Um</li><li>Dois</li><li>Três</li><li>Quatro</li><li>Cinco</li><li>Seis</li><li>Sete</li><li>Oito</li><li>Nove</li><li>Dez</li>';
+        // Exercício 9 // Poderia usar o for também
+        let htres = document.createElement('h3');
+        principal.appendChild(htres);
+        let htres1 = document.createElement('h3');
+        principal.appendChild(htres1);
+        let htres2 = document.createElement('h3');
+        principal.appendChild(htres2);
+        // Parte 2
+        // Exercício 1
+        hum.className = 'title';
+        // Exercício 2
+        htres.className = 'description';
+        htres1.className = 'description';
+        htres2.className = 'description';
+        // Exercício 3
+        principal.removeChild(secao2);
+        // Exercício 4
+        secao3.style = 'margin-right: auto';
+        // Exercício 5
+        principal.style = 'background-color: pink';
+        // Exercício 6
+        listinha.lastElementChild.remove();
+        listinha.lastElementChild.remove();
+        // Adorei.
+    </script>
+</body>
+
+</html>
