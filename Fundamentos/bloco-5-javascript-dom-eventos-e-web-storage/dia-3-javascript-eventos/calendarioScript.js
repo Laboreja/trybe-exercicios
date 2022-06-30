@@ -56,12 +56,24 @@ osDias[26].classList.add("friday");
 
 // Exercício 2
 
-let botoesContainer = document.getElementsByClassName('buttons-container')[0];
+let botoesContainer = document.getElementsByClassName("buttons-container")[0];
 
 function feriaDinamicos() {
-    botao = document.createElement("div");
-    botao.id = "btn-holiday";
-    botao.innertext = 'Feriados';
-    botoesContainer.appendChild(botao);
+  botao = document.createElement("div");
+  botao.id = "btn-holiday";
+  botao.innertext = "Feriados";
+  botoesContainer.appendChild(botao);
 }
-feriaDinamicos()
+feriaDinamicos();
+
+// Exercício 3
+
+feriadinhos1 = document.getElementsByClassName("holiday")[0];
+feriadinhos2 = document.getElementsByClassName("holiday")[1];
+feriadinhos3 = document.getElementsByClassName("holiday")[2];
+function corzinha() {
+    feriadinhos1.style.backgroundColor = 'red';
+    feriadinhos2.style.backgroundColor = 'red';
+    feriadinhos3.style.backgroundColor = 'red';
+}
+botao.addEventListener('click', corzinha);
