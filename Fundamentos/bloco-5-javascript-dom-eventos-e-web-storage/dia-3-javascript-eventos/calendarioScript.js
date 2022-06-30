@@ -53,3 +53,15 @@ osDias[5].classList.add("friday");
 osDias[12].classList.add("friday");
 osDias[19].classList.add("friday");
 osDias[26].classList.add("friday");
+
+// Exercício 2
+
+let botoesContainer = document.getElementsByClassName('buttons-container')[0];
+
+function feriaDinamicos() {
+    botao = document.createElement("div");
+    botao.id = "btn-holiday";
+    botao.innertext = 'Feriados';
+    botoesContainer.appendChild(botao);
+}
+feriaDinamicos()
