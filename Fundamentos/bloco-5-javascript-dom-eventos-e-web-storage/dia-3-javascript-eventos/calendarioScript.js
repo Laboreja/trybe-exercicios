@@ -144,7 +144,7 @@ coloridinho("red");
 
 let verificador = 0;
 
-function selecionaTarefa() {
+function selecionaTarefa(event) {
   if (verificador == 0) {
   corzinhainha.className = "task.selected"
   verificador = 1;
@@ -155,3 +155,21 @@ function selecionaTarefa() {
 }
 
 corzinhainha.addEventListener('click', selecionaTarefa);
+
+// Exercício 10
+
+let verificador2 = 0;
+
+function coloreDia(event) {
+  if (verificador2 == 0) {
+  event.target.style.color = 'red';
+  verificador2 = 1;
+} else {
+  event.target.style.color = "rgb(119,119,119)";
+  verificador2 = 0;
+}
+}
+
+for (let i = 0; i < osDias.length; i++) {
+  osDias[i].addEventListener('click', coloreDia)
+}
