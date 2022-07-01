@@ -105,27 +105,37 @@ botao2.addEventListener("click", textoSexta);
 // Exercício 6
 
 function zoomIn(event) {
-  event.target.style.fontSize = '30px';
+  event.target.style.fontSize = "30px";
 }
 
 for (let i = 0; i < osDias.length; i++) {
-  osDias[i].addEventListener('mouseover', zoomIn) 
+  osDias[i].addEventListener("mouseover", zoomIn);
 }
 
 function zoomOut(event) {
-  event.target.style.fontSize = '20px';
+  event.target.style.fontSize = "20px";
 }
 
 for (let i = 0; i < osDias.length; i++) {
-  osDias[i].addEventListener('mouseout', zoomOut) 
+  osDias[i].addEventListener("mouseout", zoomOut);
 }
 
 // Exercício 7
 let tarefasContainer = document.getElementsByClassName("my-tasks")[0];
 
-function tarefinhas() {
+function tarefinhas(tarefa) {
   atarefado = document.createElement("span");
   tarefasContainer.appendChild(atarefado);
-  atarefado.innerHTML = "codar. todo. dia.";
+  atarefado.innerHTML = tarefa;
 }
-tarefinhas();
+tarefinhas("Codar. Todo. Dia.");
+
+// Exercício 8
+
+function coloridinho(cor) {
+  corzinhainha = document.createElement("div");
+  tarefasContainer.appendChild(corzinhainha);
+  corzinhainha.className = "my-tasks";
+  corzinhainha.style.backgroundColor = cor;
+}
+coloridinho("red");
