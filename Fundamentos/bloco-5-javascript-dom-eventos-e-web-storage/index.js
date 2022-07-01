@@ -22,3 +22,10 @@ function tamanhoTexto(tamanho) {
 }
 
 tamanhoTexto("30px");
+
+// Espaçamento entre as linhas do texto:
+function espacamentoLinha(espacamentoL) {
+    texto.style.lineHeight = espacamentoL;
+}
+
+espacamentoLinha("25px");
