@@ -61,7 +61,7 @@ let botoesContainer = document.getElementsByClassName("buttons-container")[0];
 function feriaDinamicos() {
   botao1 = document.createElement("div");
   botao1.id = "btn-holiday";
-  botao1.innertext = "Feriados";
+  botao1.innerHTML = "Feriados";
   botoesContainer.appendChild(botao1);
 }
 feriaDinamicos();
@@ -83,7 +83,7 @@ botao1.addEventListener("click", corzinha);
 function sextaDinamicos() {
   botao2 = document.createElement("div");
   botao2.id = "btn-friday";
-  botao2.innertext = "Sexta-feira";
+  botao2.innerHTML = "Sexta-feira";
   botoesContainer.appendChild(botao2);
 }
 sextaDinamicos();
@@ -95,17 +95,17 @@ let sexta2 = document.getElementsByClassName("friday")[1];
 let sexta3 = document.getElementsByClassName("friday")[2];
 let sexta4 = document.getElementsByClassName("friday")[3];
 function textoSexta() {
-  sexta1.innertext = "oi";
-  sexta2.innertext = "tudo";
-  sexta3.innertext = "bem";
-  sexta4.innertext = "?";
+  sexta1.innerHTML = "SEXTOU";
+  sexta2.innerHTML = "SEXTOU";
+  sexta3.innerHTML = "SEXTOU";
+  sexta4.innerHTML = "SEXTOU";
 }
 botao2.addEventListener("click", textoSexta);
 
 // Exercício 6
 
 function zoomIn(event) {
-  event.target.style.fontSize = '40px';
+  event.target.style.fontSize = '30px';
 }
 
 for (let i = 0; i < osDias.length; i++) {
@@ -121,3 +121,11 @@ for (let i = 0; i < osDias.length; i++) {
 }
 
 // Exercício 7
+let tarefasContainer = document.getElementsByClassName("my-tasks")[0];
+
+function tarefinhas() {
+  atarefado = document.createElement("span");
+  tarefasContainer.appendChild(atarefado);
+  atarefado.innerHTML = "codar. todo. dia.";
+}
+tarefinhas();
