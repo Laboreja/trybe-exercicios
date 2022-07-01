@@ -6,3 +6,12 @@ function corFundo(color) {
 }
 
 corFundo("pink");
+
+// Cor do texto:
+let texto = document.getElementById("textao");
+
+function corTexto(color) {
+    texto.style.color = color;
+}
+
+corTexto("white");
