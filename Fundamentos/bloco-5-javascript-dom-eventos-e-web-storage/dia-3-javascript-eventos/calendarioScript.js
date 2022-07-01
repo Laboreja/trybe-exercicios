@@ -139,3 +139,19 @@ function coloridinho(cor) {
   corzinhainha.style.backgroundColor = cor;
 }
 coloridinho("red");
+
+// Exercício 9
+
+let verificador = 0;
+
+function selecionaTarefa() {
+  if (verificador == 0) {
+  corzinhainha.className = "task.selected"
+  verificador = 1;
+} else {
+  corzinhainha.className = "my-tasks";
+  verificador = 0;
+}
+}
+
+corzinhainha.addEventListener('click', selecionaTarefa);
