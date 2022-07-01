@@ -59,10 +59,10 @@ osDias[26].classList.add("friday");
 let botoesContainer = document.getElementsByClassName("buttons-container")[0];
 
 function feriaDinamicos() {
-  botao = document.createElement("div");
-  botao.id = "btn-holiday";
-  botao.innertext = "Feriados";
-  botoesContainer.appendChild(botao);
+  botao1 = document.createElement("div");
+  botao1.id = "btn-holiday";
+  botao1.innertext = "Feriados";
+  botoesContainer.appendChild(botao1);
 }
 feriaDinamicos();
 
@@ -76,4 +76,17 @@ function corzinha() {
     feriadinhos2.style.backgroundColor = 'red';
     feriadinhos3.style.backgroundColor = 'red';
 }
-botao.addEventListener('click', corzinha);
+botao1.addEventListener('click', corzinha);
+
+// Exercício 4
+
+function sextaDinamicos() {
+  botao2 = document.createElement("div");
+  botao2.id = "btn-friday";
+  botao2.innertext = "Sexta-feira";
+  botoesContainer.appendChild(botao2);
+}
+sextaDinamicos();
+
+// Exercício 5
+
