@@ -72,11 +72,11 @@ feriadinhos1 = document.getElementsByClassName("holiday")[0];
 feriadinhos2 = document.getElementsByClassName("holiday")[1];
 feriadinhos3 = document.getElementsByClassName("holiday")[2];
 function corzinha() {
-    feriadinhos1.style.backgroundColor = 'red';
-    feriadinhos2.style.backgroundColor = 'red';
-    feriadinhos3.style.backgroundColor = 'red';
+  feriadinhos1.style.backgroundColor = "red";
+  feriadinhos2.style.backgroundColor = "red";
+  feriadinhos3.style.backgroundColor = "red";
 }
-botao1.addEventListener('click', corzinha);
+botao1.addEventListener("click", corzinha);
 
 // Exercício 4
 
@@ -90,3 +90,14 @@ sextaDinamicos();
 
 // Exercício 5
 
+let sexta1 = document.getElementsByClassName("friday")[0];
+let sexta2 = document.getElementsByClassName("friday")[1];
+let sexta3 = document.getElementsByClassName("friday")[2];
+let sexta4 = document.getElementsByClassName("friday")[3];
+function textoSexta() {
+  sexta1.innertext = "oi";
+  sexta2.innertext = "tudo";
+  sexta3.innertext = "bem";
+  sexta4.innertext = "?";
+}
+botao2.addEventListener("click", textoSexta);
