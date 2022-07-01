@@ -1,4 +1,8 @@
-// Cor de fundo da tela
+// Cor de fundo da tela:
 let corpo = document.getElementById("corpo");
-corpo.style.backgroundColor = "red";
 
+function corFundo(color) {
+  corpo.style.backgroundColor = color;
+}
+
+corFundo("pink");
