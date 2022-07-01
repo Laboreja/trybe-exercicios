@@ -29,3 +29,10 @@ function espacamentoLinha(espacamentoL) {
 }
 
 espacamentoLinha("25px");
+
+// Tipo da fonte (font family):
+function familiaFonte(familia) {
+    texto.style.fontFamily = familia;
+}
+
+familiaFonte("Verdana, Arial, sans-serif");
