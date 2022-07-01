@@ -101,3 +101,23 @@ function textoSexta() {
   sexta4.innertext = "?";
 }
 botao2.addEventListener("click", textoSexta);
+
+// Exercício 6
+
+function zoomIn(event) {
+  event.target.style.fontSize = '40px';
+}
+
+for (let i = 0; i < osDias.length; i++) {
+  osDias[i].addEventListener('mouseover', zoomIn) 
+}
+
+function zoomOut(event) {
+  event.target.style.fontSize = '20px';
+}
+
+for (let i = 0; i < osDias.length; i++) {
+  osDias[i].addEventListener('mouseout', zoomOut) 
+}
+
+// Exercício 7
