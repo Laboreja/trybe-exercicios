@@ -11,7 +11,14 @@ corFundo("pink");
 let texto = document.getElementById("textao");
 
 function corTexto(color) {
-    texto.style.color = color;
+  texto.style.color = color;
 }
 
 corTexto("white");
+
+// Tamanho da fonte:
+function tamanhoTexto(tamanho) {
+  texto.style.fontSize = tamanho;
+}
+
+tamanhoTexto("30px");
