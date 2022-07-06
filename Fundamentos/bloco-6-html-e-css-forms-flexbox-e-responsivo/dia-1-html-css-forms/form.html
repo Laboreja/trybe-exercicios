@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TrybeTrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FORMULÁRIO</h1>
+    <form action="" method="GET" enctype="multipart/form-data">
+        <label for="nome-completo">Nome:</label>
+        <input type="text" name="nome-completo" id="nome-completo" placeholder="Limite de 40 caracteres" minlength="10"
+            maxlength="40">
+        <br><br>
+        <label for="email-form">Email:</label>
+        <input type="email" name="email-form" id="email-form" placeholder="Limite de 50 caracteres" minlength="10"
+            maxlength="50">
+        <br><br>
+        <p>Destino Preferido:</p>
+        <label for="destino1"><input type="radio" name="destino" id="destino1" value="cidade"> Cidade</label>
+        <label for="destino2"><input type="radio" name="destino" id="destino2" value="campo"> Campo</label>
+        <label for="destino3"><input type="radio" name="destino" id="destino3" value="praia"> Praia</label>
+        <label for="destino4"><input type="radio" name="destino" id="destino4" value="montanhas"> Montanhas</label>
+        <br><br>
+        <label for="motivo">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+            TrybeTrip?:</label>
+        <br>
+        <textarea name="motivo" id="motivo" placeholder="Limite de 500 caracteres" maxlength="500"></textarea>
+        <br><br>
+        <label for="data">Qual a melhor data para realizar sua viagem?</label>
+        <br><br>
+        <input type="date" name="data" id="data">
+        <br><br>
+        <label for="check1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <br>
+        <input type="checkbox" name="check1" id="check1">
+        <br><br>
+        <label for="check2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+            futuros.</label>
+        <br>
+        <input type="checkbox" name="check2" id="check2">
+        <br><br>
+        <input type="submit" value="Enviar" id="enviar">
+        <input type="reset" value="Limpar" id="limpar">
+    </form>
+    <script src="jscript.js"></script>
+</body>
+
+</html>
