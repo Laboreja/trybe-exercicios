@@ -12,10 +12,12 @@ body {
 .header-container {
   background-color: #5c687c;
   display: flex;
+  order: 2;
 }
 
 .logo-container {
   display: flex;
+  order: 1;
   justify-content: center;
   flex-basis: 268px;
 }
@@ -23,10 +25,12 @@ body {
 .menu-container {
   display: flex;
   flex-basis: 500px;
+  order: 2;
 }
-
+ 
 .menu-container ul {
   display: flex;
+  order: 2;
   justify-content: space-around;
   width: 100%;
 }
@@ -37,4 +41,6 @@ body {
   font-size: 1.3rem;
   list-style: none;
   margin-right: 10px;
+  display: flex;
+  order: 2;
 }
