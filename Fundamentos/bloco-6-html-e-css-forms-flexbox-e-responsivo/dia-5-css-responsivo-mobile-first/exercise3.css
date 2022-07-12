@@ -79,9 +79,28 @@ body {
   height: 1%;
 }
 
-@media print {
-    #header, #navigation, #footer {
-      display: none;
-    }
+@media screen and (max-width: 375px) {
+  body {
+    padding: 0px;
+    padding: 16px;
+    padding-top: 80px;
   }
-  
+  #header {
+    position: fixed;
+    top: 0;
+  }
+  #aside {
+    display: none;
+  }
+  img {
+    max-width: 340px;
+  }
+}
+
+@media print {
+  #header,
+  #navigation,
+  #footer {
+    display: none;
+  }
+}
