@@ -9,13 +9,30 @@ html {
 }
 
 @media screen and (max-width: 375px) {
-
+    body {
+        margin: 10px;
+        font-size: larger;
+    }
 }
 
 @media screen and (min-width: 376px) and (max-width: 810px) {
-
+    body {
+        margin: 25px;
+        font-size: larger;
+    }
 }
 
 @media screen and (min-width: 811px) {
-
+  header {
+    padding: 10px 16px;
+    background-color: aliceblue;
+    border: solid;
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  body {
+    padding: 16px;
+    padding-top: 140px;
+  }
 }

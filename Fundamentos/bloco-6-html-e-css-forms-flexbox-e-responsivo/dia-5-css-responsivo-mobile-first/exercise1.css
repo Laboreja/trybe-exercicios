@@ -65,5 +65,8 @@ figcaption {
       margin: 25px;
       max-width: 1000px;
     }
+    .aside-two {
+      background-color: red;
+    }
   }
   
