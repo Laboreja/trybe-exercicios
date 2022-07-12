@@ -57,3 +57,13 @@ figcaption {
     padding: 5px;
   }
 }
+
+@media screen and (min-width: 1300px) {
+    body {
+      background-color: lightblue;
+      font-size: 30px;
+      margin: 25px;
+      max-width: 1000px;
+    }
+  }
+  
