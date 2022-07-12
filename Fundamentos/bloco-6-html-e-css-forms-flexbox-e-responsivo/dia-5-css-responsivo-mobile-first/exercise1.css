@@ -46,5 +46,14 @@ figcaption {
 }
 
 @media screen and (max-width: 560px) {
-
+  body {
+    background-color: pink;
+    font-size: 25px;
+    margin: 20px;
+  }
+  figure {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
 }
