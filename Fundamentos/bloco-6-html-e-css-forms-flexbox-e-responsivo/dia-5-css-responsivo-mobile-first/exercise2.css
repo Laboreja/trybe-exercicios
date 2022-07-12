@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: azure;
+}
+
 @media screen and (max-width: 375px) {
     body {
         margin: 10px;
