@@ -83,12 +83,14 @@ function getNamedBook() {
   const maior = books.find((maiorNome) => maiorNome.name.length == 26);
   return maior;
 }
-console.log(getNamedBook());
 
 // Exercício 4
 function booksOrderedByReleaseYearDesc() {
-  // escreva aqui seu código
+  return books.sort((a, b) => {
+    a.releaseYear - b.releaseYear;
+  });
 }
+console.log(booksOrderedByReleaseYearDesc());
 
 // Exercício 5
 function everyoneWasBornOnSecXX() {
