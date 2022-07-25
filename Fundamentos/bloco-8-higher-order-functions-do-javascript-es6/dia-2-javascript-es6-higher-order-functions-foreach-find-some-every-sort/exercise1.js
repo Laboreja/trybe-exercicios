@@ -93,14 +93,17 @@ function booksOrderedByReleaseYearDesc() {
 console.log(booksOrderedByReleaseYearDesc());
 
 // Exercício 5
+const expectedResult = false;
+
 function everyoneWasBornOnSecXX() {
   // escreva seu código aqui
 }
 
 // Exercício 6
 function someBookWasReleaseOnThe80s() {
-  // escreva seu código aqui
+  return books.some((oitentas) => String(oitentas.releaseYear)[2] === "8");
 }
+console.log(someBookWasReleaseOnThe80s());
 
 // Exercício 7
 function authorUnique() {
