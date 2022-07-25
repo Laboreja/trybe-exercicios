@@ -90,20 +90,16 @@ function booksOrderedByReleaseYearDesc() {
     a.releaseYear - b.releaseYear;
   });
 }
-console.log(booksOrderedByReleaseYearDesc());
 
 // Exercício 5
-const expectedResult = false;
-
 function everyoneWasBornOnSecXX() {
-  // escreva seu código aqui
+  return books.every((seculo) => String(seculo.author.birthYear)[1] === "9");
 }
 
 // Exercício 6
 function someBookWasReleaseOnThe80s() {
   return books.some((oitentas) => String(oitentas.releaseYear)[2] === "8");
 }
-console.log(someBookWasReleaseOnThe80s());
 
 // Exercício 7
 function authorUnique() {
