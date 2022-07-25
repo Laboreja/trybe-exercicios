@@ -63,7 +63,44 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
+// Exercício 1
 function authorBornIn1947() {
   const ano = books.find((ano) => ano.author.birthYear == 1947);
   return ano;
+}
+
+// Exercício 2
+function smallerName() {
+  let nameBook;
+  // escreva aqui o seu código
+
+  // Variável nameBook que receberá o valor do menor nome;
+  return nameBook;
+}
+
+// Exercício 3
+function getNamedBook() {
+  const maior = books.find((maiorNome) => maiorNome.name.length == 26);
+  return maior;
+}
+console.log(getNamedBook());
+
+// Exercício 4
+function booksOrderedByReleaseYearDesc() {
+  // escreva aqui seu código
+}
+
+// Exercício 5
+function everyoneWasBornOnSecXX() {
+  // escreva seu código aqui
+}
+
+// Exercício 6
+function someBookWasReleaseOnThe80s() {
+  // escreva seu código aqui
+}
+
+// Exercício 7
+function authorUnique() {
+  // escreva seu código aqui
 }
