@@ -61,14 +61,14 @@ const books = [
   },
 ];
 
-// Exercício 1
-// Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTOR
-// Dica: Use a função map
+// Exercício 3
+// Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
+// Dica: use a função filter;
 
-function formatedBookNames() {
-  return books.map(
-    (livrao) => `${livrao.name} - ${livrao.genre} - ${livrao.author.birthYear}`
+function fantasyOrScienceFiction() {
+  return books.filter(
+    (livrao) => livrao.genre == "Ficção Científica" || livrao.genre == "Fantasia"
   );
 }
 
-console.log(formatedBookNames());
+console.log(fantasyOrScienceFiction());
