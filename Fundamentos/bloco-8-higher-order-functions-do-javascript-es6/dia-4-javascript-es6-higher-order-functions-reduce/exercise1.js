@@ -1,3 +1,4 @@
+// Exercício 1
 // Dada uma matriz, transforme em um array.
 const arrays = [
     ['1', '2', '3'],
