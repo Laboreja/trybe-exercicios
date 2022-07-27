@@ -61,4 +61,14 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+// Exercício 2
+// Crie uma string com os nomes de todas as pessoas autoras.
+
+function reduceNames() {
+  return books.reduce(
+    (acc, curr) => (curr.releaseYear[0] = 1 ? [...acc, curr.author.name] : acc),
+    []
+  );
+}
+
+console.log(reduceNames());
